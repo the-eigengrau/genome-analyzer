@@ -57,11 +57,13 @@ render(){
 
         {this.state.loading ? null:
         <div className="inputSection">
+        <div className="inputButton">
         <label className="custom-file-upload">
           <input className="Input" type="file" name="file" onChange={this.uploadHandler}/>
             Upload file
         </label>
         <button className='help' onClick={() => this.infoToggle()}><MdHelp/></button>
+        </div>
         {this.state.info ? <p>Upload a .txt file containing a viral genome segment in FASTA format.</p>: null}
         </div>
         }

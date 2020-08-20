@@ -1,5 +1,6 @@
 import React from 'react';
 import '../scss/App.scss';
+import '../scss/MobileApp.scss';
 import logo from '../design/logo.png';
 import Home from './Home.js';
 import Team from './Team.js';
