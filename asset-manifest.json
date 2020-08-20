@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/genome-analyzer/static/css/main.f456db16.chunk.css",
-    "main.js": "/genome-analyzer/static/js/main.02beca3d.chunk.js",
-    "main.js.map": "/genome-analyzer/static/js/main.02beca3d.chunk.js.map",
+    "main.css": "/genome-analyzer/static/css/main.804da680.chunk.css",
+    "main.js": "/genome-analyzer/static/js/main.88d92535.chunk.js",
+    "main.js.map": "/genome-analyzer/static/js/main.88d92535.chunk.js.map",
     "runtime-main.js": "/genome-analyzer/static/js/runtime-main.6b642371.js",
     "runtime-main.js.map": "/genome-analyzer/static/js/runtime-main.6b642371.js.map",
     "static/css/2.d2cccc88.chunk.css": "/genome-analyzer/static/css/2.d2cccc88.chunk.css",
-    "static/js/2.d1c387d4.chunk.js": "/genome-analyzer/static/js/2.d1c387d4.chunk.js",
-    "static/js/2.d1c387d4.chunk.js.map": "/genome-analyzer/static/js/2.d1c387d4.chunk.js.map",
+    "static/js/2.1c512575.chunk.js": "/genome-analyzer/static/js/2.1c512575.chunk.js",
+    "static/js/2.1c512575.chunk.js.map": "/genome-analyzer/static/js/2.1c512575.chunk.js.map",
     "index.html": "/genome-analyzer/index.html",
-    "precache-manifest.d2313376612f7cc6c1fde6f1bde683b5.js": "/genome-analyzer/precache-manifest.d2313376612f7cc6c1fde6f1bde683b5.js",
+    "precache-manifest.4de763318ad68aa509ad86c02474372c.js": "/genome-analyzer/precache-manifest.4de763318ad68aa509ad86c02474372c.js",
     "service-worker.js": "/genome-analyzer/service-worker.js",
     "static/css/2.d2cccc88.chunk.css.map": "/genome-analyzer/static/css/2.d2cccc88.chunk.css.map",
-    "static/css/main.f456db16.chunk.css.map": "/genome-analyzer/static/css/main.f456db16.chunk.css.map",
-    "static/js/2.d1c387d4.chunk.js.LICENSE.txt": "/genome-analyzer/static/js/2.d1c387d4.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/genome-analyzer/static/media/tax.801419d5.jpg",
+    "static/css/main.804da680.chunk.css.map": "/genome-analyzer/static/css/main.804da680.chunk.css.map",
+    "static/js/2.1c512575.chunk.js.LICENSE.txt": "/genome-analyzer/static/js/2.1c512575.chunk.js.LICENSE.txt",
+    "static/media/MobileApp.scss": "/genome-analyzer/static/media/tax.801419d5.jpg",
     "static/media/leia.jpg": "/genome-analyzer/static/media/leia.be09f54c.jpg",
     "static/media/luke.jpg": "/genome-analyzer/static/media/luke.9d3de910.jpg",
     "static/media/mace.jpg": "/genome-analyzer/static/media/mace.0a049e99.jpg"
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.6b642371.js",
     "static/css/2.d2cccc88.chunk.css",
-    "static/js/2.d1c387d4.chunk.js",
-    "static/css/main.f456db16.chunk.css",
-    "static/js/main.02beca3d.chunk.js"
+    "static/js/2.1c512575.chunk.js",
+    "static/css/main.804da680.chunk.css",
+    "static/js/main.88d92535.chunk.js"
   ]
 }
