@@ -24,7 +24,7 @@ class Home extends Component {
     this.setState({predicted:false})
     this.setState({loading:true})
     console.log('About to send POST')
-    await axios.post("http://localhost:5000/predict_upload", file, {
+    await axios.post("https://genomeanalyzer.wl.r.appspot.com/predict_upload", file, {
     }).then(response =>
       this.setState({prediction:response.data})
     )
@@ -41,7 +41,6 @@ class Home extends Component {
     data.append('file', event.target.files[0])
     console.log(data)
     this.getData(data)
-    //https://genomeanalyzer.wl.r.appspot.com
 }
 
 infoToggle = () => {
@@ -77,9 +76,6 @@ render(){
             <div className="predictionSection">
               <p>This virus is genetically closest to {this.state.prediction}.</p>
             </div> : null}
-
-
-
 
       </div>
     </React.Fragment>
