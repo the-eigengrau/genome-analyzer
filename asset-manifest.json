@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/genome-analyzer/static/css/main.a7363b88.chunk.css",
-    "main.js": "/genome-analyzer/static/js/main.7dd8a954.chunk.js",
-    "main.js.map": "/genome-analyzer/static/js/main.7dd8a954.chunk.js.map",
+    "main.css": "/genome-analyzer/static/css/main.00a04ba7.chunk.css",
+    "main.js": "/genome-analyzer/static/js/main.22ff4180.chunk.js",
+    "main.js.map": "/genome-analyzer/static/js/main.22ff4180.chunk.js.map",
     "runtime-main.js": "/genome-analyzer/static/js/runtime-main.6b642371.js",
     "runtime-main.js.map": "/genome-analyzer/static/js/runtime-main.6b642371.js.map",
-    "static/css/2.d2cccc88.chunk.css": "/genome-analyzer/static/css/2.d2cccc88.chunk.css",
-    "static/js/2.daf71993.chunk.js": "/genome-analyzer/static/js/2.daf71993.chunk.js",
-    "static/js/2.daf71993.chunk.js.map": "/genome-analyzer/static/js/2.daf71993.chunk.js.map",
+    "static/css/2.d6c00f92.chunk.css": "/genome-analyzer/static/css/2.d6c00f92.chunk.css",
+    "static/js/2.8d83aadd.chunk.js": "/genome-analyzer/static/js/2.8d83aadd.chunk.js",
+    "static/js/2.8d83aadd.chunk.js.map": "/genome-analyzer/static/js/2.8d83aadd.chunk.js.map",
     "index.html": "/genome-analyzer/index.html",
-    "precache-manifest.cec30726ecaaa31808f5c2bb4851b4ee.js": "/genome-analyzer/precache-manifest.cec30726ecaaa31808f5c2bb4851b4ee.js",
+    "precache-manifest.749222aa1e3af5e50d7047ee5bb205e2.js": "/genome-analyzer/precache-manifest.749222aa1e3af5e50d7047ee5bb205e2.js",
     "service-worker.js": "/genome-analyzer/service-worker.js",
-    "static/css/2.d2cccc88.chunk.css.map": "/genome-analyzer/static/css/2.d2cccc88.chunk.css.map",
-    "static/css/main.a7363b88.chunk.css.map": "/genome-analyzer/static/css/main.a7363b88.chunk.css.map",
-    "static/js/2.daf71993.chunk.js.LICENSE.txt": "/genome-analyzer/static/js/2.daf71993.chunk.js.LICENSE.txt",
+    "static/css/2.d6c00f92.chunk.css.map": "/genome-analyzer/static/css/2.d6c00f92.chunk.css.map",
+    "static/css/main.00a04ba7.chunk.css.map": "/genome-analyzer/static/css/main.00a04ba7.chunk.css.map",
+    "static/js/2.8d83aadd.chunk.js.LICENSE.txt": "/genome-analyzer/static/js/2.8d83aadd.chunk.js.LICENSE.txt",
     "static/media/MobileApp.scss": "/genome-analyzer/static/media/tax.801419d5.jpg",
     "static/media/leia.jpg": "/genome-analyzer/static/media/leia.be09f54c.jpg",
     "static/media/luke.jpg": "/genome-analyzer/static/media/luke.9d3de910.jpg",
@@ -21,9 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6b642371.js",
-    "static/css/2.d2cccc88.chunk.css",
-    "static/js/2.daf71993.chunk.js",
-    "static/css/main.a7363b88.chunk.css",
-    "static/js/main.7dd8a954.chunk.js"
+    "static/css/2.d6c00f92.chunk.css",
+    "static/js/2.8d83aadd.chunk.js",
+    "static/css/main.00a04ba7.chunk.css",
+    "static/js/main.22ff4180.chunk.js"
   ]
 }
