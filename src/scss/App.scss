@@ -12,12 +12,14 @@ body {
 
 }
 
+.help:focus {outline:0;}
+
 .help {
   background-color: transparent;
   border:none;
   color:white;
   font-size: 22px;
-  margin-top:3px;
+  margin-top:4px;
 
   svg {
     margin:auto;
@@ -46,13 +48,15 @@ body {
   align-items: center;
   justify-content: center;
 
-  a {
+  .sample {
+    background-color: transparent;
     color:white;
-    font-size: 12px;
+    font-size: 16px;
+    border:none;
     margin:0px auto;
-    margin-top:10px;
-    padding-left:20px;
   }
+
+  .sample:focus {outline:0;}
 }
 }
 
@@ -181,15 +185,25 @@ body {
     display:none;
   }
 
+  .custom-file-upload:first-of-type {
+    margin-top:0px;
+
+  }
+
   .custom-file-upload {
+    margin-top:10px;
     color:white;
     border: 1px solid #ccc;
     display: inline-block;
-    padding: 6px 12px;
+    padding: 10px 12px;
     cursor: pointer;
     width:200px;
     margin-left:20px;
     transition: 1s background-color, border;
+
+    button:hover {
+      color:black;
+    }
 }
 
 .custom-file-upload:hover {

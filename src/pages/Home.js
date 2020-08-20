@@ -37,11 +37,13 @@ class Home extends Component {
 
   sampleUploadHandler =  async (event) => {
      this.setState({loading:true})
-     console.log(event.target.files[0])
-     const data = new FormData()
-     data.append('file', event.target.files[0])
-     console.log(data)
-     this.getData(data)
+     await axios.get("https://genomeanalyzer.wl.r.appspot.com/predict_sample").then(response =>
+       this.setState({prediction:response.data})
+     )
+     this.setState({loading:false})
+     this.setState({predicted:true})
+     console.log(this.state.prediction)
+     console.log('Data POSTed')
  }
 
 
@@ -76,7 +78,10 @@ render(){
           <input className="Input" type="file" name="file" onChange={this.uploadHandler}/>
             Upload file
         </label>
-        <Link to="/test.txt" target="_blank" download>Download sample genome </Link>
+        <label className="custom-file-upload">
+          <button className="sample" onClick={()=>this.sampleUploadHandler()}>Use sample genome </button>
+        </label>
+
         </div>
         <button className='help' onClick={() => this.infoToggle()}><MdHelp/></button>
         </div>
