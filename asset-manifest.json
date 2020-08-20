@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/genome-analyzer/static/css/main.02c298eb.chunk.css",
+    "main.css": "/genome-analyzer/static/css/main.ed46e572.chunk.css",
     "main.js": "/genome-analyzer/static/js/main.11a91f40.chunk.js",
     "main.js.map": "/genome-analyzer/static/js/main.11a91f40.chunk.js.map",
     "runtime-main.js": "/genome-analyzer/static/js/runtime-main.6b642371.js",
@@ -9,10 +9,10 @@
     "static/js/2.8d83aadd.chunk.js": "/genome-analyzer/static/js/2.8d83aadd.chunk.js",
     "static/js/2.8d83aadd.chunk.js.map": "/genome-analyzer/static/js/2.8d83aadd.chunk.js.map",
     "index.html": "/genome-analyzer/index.html",
-    "precache-manifest.1cea4e0dbc362d3e6d4c14be1bc93f56.js": "/genome-analyzer/precache-manifest.1cea4e0dbc362d3e6d4c14be1bc93f56.js",
+    "precache-manifest.c95d43791d305b9bc3f2adc88bfb5938.js": "/genome-analyzer/precache-manifest.c95d43791d305b9bc3f2adc88bfb5938.js",
     "service-worker.js": "/genome-analyzer/service-worker.js",
     "static/css/2.d6c00f92.chunk.css.map": "/genome-analyzer/static/css/2.d6c00f92.chunk.css.map",
-    "static/css/main.02c298eb.chunk.css.map": "/genome-analyzer/static/css/main.02c298eb.chunk.css.map",
+    "static/css/main.ed46e572.chunk.css.map": "/genome-analyzer/static/css/main.ed46e572.chunk.css.map",
     "static/js/2.8d83aadd.chunk.js.LICENSE.txt": "/genome-analyzer/static/js/2.8d83aadd.chunk.js.LICENSE.txt",
     "static/media/MobileApp.scss": "/genome-analyzer/static/media/tax.801419d5.jpg",
     "static/media/leia.jpg": "/genome-analyzer/static/media/leia.be09f54c.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.6b642371.js",
     "static/css/2.d6c00f92.chunk.css",
     "static/js/2.8d83aadd.chunk.js",
-    "static/css/main.02c298eb.chunk.css",
+    "static/css/main.ed46e572.chunk.css",
     "static/js/main.11a91f40.chunk.js"
   ]
 }
