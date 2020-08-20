@@ -1,6 +1,27 @@
 $ink:#000a12;
 $sunnyside: #ffd740;
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height:50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $ink;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $sunnyside;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
   background-color: $ink;
 }
@@ -10,6 +31,33 @@ body {
   display:grid;
   grid-template-columns: repeat(11,1fr);
 
+}
+
+.sampleDisplay {
+  display:flex;
+  flex-direction: column;
+  grid-column: 6/9;
+  margin: 40px 80px;
+  grid-row: 2;
+  background-color:$ink;
+  overflow-y:scroll;
+  max-height:200px;
+  text-align:left;
+  padding-left: 20px;
+  padding-right: 15px;
+
+  strong {
+    font-size:12px;
+    color:$sunnyside;
+  }
+
+
+  p {
+    color:white;
+    width:100%;
+    word-wrap:break-word;
+
+  }
 }
 
 .help:focus {outline:0;}
@@ -73,10 +121,17 @@ body {
 }
 
 .predictionSection{
-  padding-top:20px;
+  padding:0px;
   display:flex;
   flex-direction: row;
   align-items: center;
+  border-top:1px solid violet;
+
+  strong {
+    font-size:14px;
+    color:white;
+  }
+
   p {
     color:white;
     margin: 0px;
@@ -159,7 +214,7 @@ body {
   z-index: 5;
   background-color:$ink;
   width:100%;
-  padding-bottom:0px;
+  padding-bottom:20px;
 
   h1 {
     color:white;

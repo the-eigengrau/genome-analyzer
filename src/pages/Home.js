@@ -98,10 +98,16 @@ render(){
 
           {this.state.predicted ?
             <div className="predictionSection">
-              <p>This virus is genetically closest to {this.state.prediction}.</p>
+              <p><strong>This virus is genetically closest to {this.state.prediction}.</strong></p>
             </div> : null}
 
       </div>
+      {this.state.loading ?
+      <div className="sampleDisplay">
+        <p>
+        <strong>SAMPLE GENOME (.fasta) -- </strong>MNSERSDVTLYQPFLDYAIAYMRSRLDLEPYPIPTGFESNSAVVGKGKNQEEVVTTSYAFQTAKLRQIRAAHVQGGNSLQVLNFVIFPHLNYDLPFFGADLVTLPGGHLIALDMQPLFRDDSAYQAKYTEPILPIFHAHQQHLSWGGDFPEEAQPFFSPAFLWTRPQETAVVETQVFAAFKDYLKAYLDFVEQAEAVTDSQNLVAIKQAQLRYLRYRAEKDPARGMFKRFYGAEWTEEYIHGFLFDLERKLTVVKQGGNSLQVLNFVIFPHLNYDLPFFGADLVTLPGGHLIALTDSQNLVAIKQAQLRYLRYRAEKDPARGMFKRFYGAEWTEEYIHGFLFDLERKLTVVKQG</p>
+      </div>: null
+      }
     </React.Fragment>
   )
 }
