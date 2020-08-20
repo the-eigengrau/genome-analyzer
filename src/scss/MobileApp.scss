@@ -38,7 +38,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items:flex-start;
+  align-items:center;
   p {
     font-size: 14px;
     background-color:white;
@@ -164,7 +164,7 @@ body {
 
   h1 {
     color:white;
-    text-align: left;
+    text-align: center;
     margin:20px;
     font-size: 25px;
     font-weight:400;

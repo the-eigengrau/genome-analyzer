@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {Ripple} from 'react-spinners-css';
 import { MdHelp } from "react-icons/md";
+import {Link} from 'react-router-dom'
 
 class Home extends Component {
   constructor() {
@@ -34,6 +35,17 @@ class Home extends Component {
     console.log('Data POSTed')
   }
 
+  sampleUploadHandler =  async (event) => {
+     this.setState({loading:true})
+     console.log(event.target.files[0])
+     const data = new FormData()
+     data.append('file', event.target.files[0])
+     console.log(data)
+     this.getData(data)
+ }
+
+
+
  uploadHandler =  async (event) => {
     this.setState({loading:true})
     console.log(event.target.files[0])
@@ -52,18 +64,23 @@ render(){
     <React.Fragment>
       <div className="hero"></div>
       <div className="float">
-        <h1>Machine learning powered viral genome classification.</h1>
+        <h1>Classify viral genomes with machine learning.</h1>
         {this.state.isPredicted ? <p class="Alert">{this.state.stopSignPrediction}</p> : null}
 
         {this.state.loading ? null:
         <div className="inputSection">
         <div className="inputButton">
+        <div className="magicConchShell">
         <label className="custom-file-upload">
+
           <input className="Input" type="file" name="file" onChange={this.uploadHandler}/>
             Upload file
         </label>
+        <Link to="/test.txt" target="_blank" download>Download sample genome </Link>
+        </div>
         <button className='help' onClick={() => this.infoToggle()}><MdHelp/></button>
         </div>
+
         {this.state.info ? <p>Upload a .txt file containing a viral genome segment in FASTA format.</p>: null}
         </div>
         }
