@@ -46,8 +46,6 @@ class Home extends Component {
      console.log('Data POSTed')
  }
 
-
-
  uploadHandler =  async (event) => {
     this.setState({loading:true})
     console.log(event.target.files[0])
@@ -102,12 +100,6 @@ render(){
             </div> : null}
 
       </div>
-      {this.state.loading ?
-      <div className="sampleDisplay">
-        <p>
-        <strong>SAMPLE GENOME (.fasta) -- </strong>MNSERSDVTLYQPFLDYAIAYMRSRLDLEPYPIPTGFESNSAVVGKGKNQEEVVTTSYAFQTAKLRQIRAAHVQGGNSLQVLNFVIFPHLNYDLPFFGADLVTLPGGHLIALDMQPLFRDDSAYQAKYTEPILPIFHAHQQHLSWGGDFPEEAQPFFSPAFLWTRPQETAVVETQVFAAFKDYLKAYLDFVEQAEAVTDSQNLVAIKQAQLRYLRYRAEKDPARGMFKRFYGAEWTEEYIHGFLFDLERKLTVVKQGGNSLQVLNFVIFPHLNYDLPFFGADLVTLPGGHLIALTDSQNLVAIKQAQLRYLRYRAEKDPARGMFKRFYGAEWTEEYIHGFLFDLERKLTVVKQG</p>
-      </div>: null
-      }
     </React.Fragment>
   )
 }
