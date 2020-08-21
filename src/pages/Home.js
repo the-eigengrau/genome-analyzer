@@ -8,12 +8,20 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {
-      prediction:0,
+      prediction:'',
       predicted:false,
       virusName:'',
       loading:false,
       info:false
     };
+  }
+
+  coronaDictionary = {
+    0:'Bovine Coronaviruus, Mebus - U00735 ',
+    1:'SARS-CoV2 Embecoviruus - NC_048217',
+    2:'NL63-Related Bat Coronavirus - NC_048216',
+    3:'Duck Coronavirus - NC_048214',
+    4:'Infectious Bronchitis Virus - NC_048213',
   }
 
   inputMethod = () => {
@@ -27,7 +35,7 @@ class Home extends Component {
     console.log('About to send POST')
     await axios.post("https://genomeanalyzer.wl.r.appspot.com/predict_upload", file, {
     }).then(response =>
-      this.setState({prediction:response.data})
+      this.setState({prediction:this.coronaDictionary[response.data]})
     )
     this.setState({loading:false})
     this.setState({predicted:true})
@@ -38,7 +46,7 @@ class Home extends Component {
   sampleUploadHandler =  async (event) => {
      this.setState({loading:true})
      await axios.get("https://genomeanalyzer.wl.r.appspot.com/sample").then(response =>
-       this.setState({prediction:response.data})
+       this.setState({prediction:this.coronaDictionary[response.data]})
      )
      this.setState({loading:false})
      this.setState({predicted:true})
@@ -64,7 +72,7 @@ render(){
     <React.Fragment>
       <div className="hero"></div>
       <div className="float">
-        <h1>Classify viral genomes with machine learning.</h1>
+        <h1>Classify coronavirus genomes with machine learning.</h1>
         {this.state.isPredicted ? <p class="Alert">{this.state.stopSignPrediction}</p> : null}
 
         {this.state.loading ? null:
@@ -97,6 +105,7 @@ render(){
           {this.state.predicted ?
             <div className="predictionSection">
               <p><strong>This virus is genetically closest to {this.state.prediction}.</strong></p>
+              <p><a href="https://www.ncbi.nlm.nih.gov/genomes/GenomesGroup.cgi">Click here</a> for more information on Coronaviridae genomes.</p>
             </div> : null}
 
       </div>

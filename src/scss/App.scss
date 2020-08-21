@@ -123,8 +123,12 @@ body {
 .predictionSection{
   padding:0px;
   display:flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+
+  a {
+    color:white;
+
+  }
 
   strong {
     font-size:14px;
@@ -132,6 +136,8 @@ body {
   }
 
   p {
+    text-align: left;
+    font-size:14px;
     color:white;
     margin: 0px;
     margin-left:20px;
@@ -210,7 +216,9 @@ body {
   margin: 40px 40px;
   grid-row: 2;
   z-index: 5;
-  background-color:$ink;
+  //background-color:$ink;
+  background: rgb(0,10,18);
+  background: linear-gradient(131deg, rgba(0,10,18,1) 50%, rgba(0,22,40,1) 100%);
   width:100%;
   padding-bottom:20px;
 
