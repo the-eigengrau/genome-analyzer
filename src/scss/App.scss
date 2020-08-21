@@ -340,6 +340,11 @@ body {
     width: 100%;
     background-color: $sunnyside;
 
+    a {
+      text-decoration:none;
+      color:black;
+    }
+
     .name {
       font-size:20px;
       font-weight:900;

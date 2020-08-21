@@ -14,12 +14,12 @@ render(){
         <div className="person">
           <div className="team1"></div>
           <p className="name">Grant Wiersum</p>
-          <p>https://www.linkedin.com/in/gbwiersum/</p>
+          <p><a href="https://www.linkedin.com/in/gbwiersum/">linkedin.com/in/gbwiersum/</a></p>
         </div>
         <div className="person">
           <div className="team2"></div>
           <p className="name">Daniela DeLeon</p>
-          <p>https://www.linkedin.com/in/daniela-deleon-989563a8/</p>
+          <p><a href="https://www.linkedin.com/in/daniela-deleon-989563a8/">linkedin.com/in/daniela-deleon-989563a8/</a></p>
         </div>
         <div className="person">
           <div className="team3"></div>
