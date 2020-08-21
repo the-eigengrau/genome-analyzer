@@ -24,7 +24,7 @@ render(){
         <div className="person">
           <div className="team3"></div>
           <p className="name">Ayon Bhattacharya</p>
-          <p>ayontech.io</p>
+          <p><a href="https://ayontech.io/">ayontech.io</a></p>
         </div>
       </div>
     </React.Fragment>
