@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2e040d659d3198d9bbaf88f222dc815",
+    "revision": "be7f1d9088806f11ea44f80e79f9fdf6",
     "url": "/genome-analyzer/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/genome-analyzer/static/css/2.d6c00f92.chunk.css"
   },
   {
-    "revision": "4ae9eed43c375332e430",
+    "revision": "0ecc19eadae843a146ce",
     "url": "/genome-analyzer/static/css/main.ed46e572.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/genome-analyzer/static/js/2.8d83aadd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ae9eed43c375332e430",
-    "url": "/genome-analyzer/static/js/main.f8bb687e.chunk.js"
+    "revision": "0ecc19eadae843a146ce",
+    "url": "/genome-analyzer/static/js/main.37b60ec4.chunk.js"
   },
   {
     "revision": "0901747a0cc8cf97769f",
