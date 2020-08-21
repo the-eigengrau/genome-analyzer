@@ -37,7 +37,7 @@ class Home extends Component {
 
   sampleUploadHandler =  async (event) => {
      this.setState({loading:true})
-     await axios.get("http://localhost:5000/sample").then(response =>
+     await axios.get("https://genomeanalyzer.wl.r.appspot.com/sample").then(response =>
        this.setState({prediction:response.data})
      )
      this.setState({loading:false})
