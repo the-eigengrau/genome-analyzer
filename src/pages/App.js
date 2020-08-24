@@ -4,6 +4,8 @@ import '../scss/MobileApp.scss';
 import logo from '../design/logo.png';
 import Home from './Home.js';
 import Team from './Team.js';
+import Data from './Data.js';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,11 +20,15 @@ function App() {
           <Link className="logo" to="/"><img src={logo}/></Link>
           <ul className="Menu">
             <li className="MenuItem"><Link className="Link" to="/">Classify</Link></li>
+            <li className="MenuItem"><Link className="Link" to="/explore">Explore</Link></li>
             <li className="MenuItem"><Link className="Link" to="/team">Team</Link></li>
           </ul>
         </div>
 
         <Switch>
+          <Route path="/explore">
+            <Data/>
+          </Route>
           <Route path="/team">
             <Team/>
           </Route>
