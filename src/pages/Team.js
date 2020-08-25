@@ -10,6 +10,7 @@ render(){
   return(
     <React.Fragment>
       <div className="hero"></div>
+        <div className="people">
         <div className="person">
           <div className="team2"></div>
           <p className="name">Daniela DeLeon</p>
@@ -20,7 +21,6 @@ render(){
           <p className="name">Ayon Bhattacharya</p>
           <p><a href="https://ayontech.io/">ayontech.io</a></p>
         </div>
-        <div className="people">
           <div className="person">
             <div className="team1"></div>
             <p className="name">Grant Wiersum</p>
